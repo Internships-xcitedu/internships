@@ -8,6 +8,8 @@ import PersonalDetails from "./Components/DynamicComponents/PersonalDetails";
 import Education from "./Components/DynamicComponents/Education";
 import Certificate from "./Components/DynamicComponents/Certificate";
 import Profile from "./Components/DynamicComponents/Profile";
+import SignUp from "./Components/empsignup/Signup";
+import Empreg from "./Components/empsignup/Empreg";
 function App() {
   return (
     <>
@@ -21,6 +23,8 @@ function App() {
           <Route path="certificate" element={<Certificate/>}></Route>
           <Route path="profile" element={<Profile/>}></Route>
         </Route>
+        <Route path="/signup" element={<SignUp />}/>
+      <Route path="/empreg" element={<Empreg/>} />
       </Routes>
     </>
   );
