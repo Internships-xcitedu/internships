@@ -1,0 +1,10 @@
+.question {
+  display: flex;
+  width: 100%;
+}
+.questioncontainer {
+  flex: 6;
+}
+.content {
+  display: flex;
+}
