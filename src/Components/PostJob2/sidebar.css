@@ -1,0 +1,8 @@
+.a{
+    visibility: visible;
+}
+@media (max-width: 1024px) {
+    .a{
+        visibility: hidden;
+    }
+}

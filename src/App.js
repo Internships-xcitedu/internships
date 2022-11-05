@@ -10,6 +10,8 @@ import Certificate from "./Components/DynamicComponents/Certificate";
 import Profile from "./Components/DynamicComponents/Profile";
 import SignUp from "./Components/empsignup/Signup";
 import Empreg from "./Components/empsignup/Empreg";
+import Question from "./Components/Questions/Question";
+import Postjob2 from "./Components/PostJob2/PostJob2";
 function App() {
   return (
     <>
@@ -23,6 +25,9 @@ function App() {
           <Route path="certificate" element={<Certificate/>}></Route>
           <Route path="profile" element={<Profile/>}></Route>
         </Route>
+        <Route path="/postjob2" element={<Postjob2 />} />
+          {/* <Route path="/apply" element={<Apply />} /> */}
+          <Route path="/question" element={<Question />} />
         <Route path="/signup" element={<SignUp />}/>
       <Route path="/empreg" element={<Empreg/>} />
       </Routes>
