@@ -1,10 +1,9 @@
-import logo from "./logo.svg";
-import "./App.css";
+import Apply from "./Components/Apply/Apply";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-left">please make a new folder for yourself</h1>
+      <Apply />
     </div>
   );
 }
