@@ -1,4 +1,6 @@
+
 import "./App.css";
+import Apply from "./Components/Apply/Apply";
 import { Routes, Route} from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Exprience from "./Components/DynamicComponents/Exprience";
@@ -26,7 +28,7 @@ function App() {
           <Route path="profile" element={<Profile/>}></Route>
         </Route>
         <Route path="/postjob2" element={<Postjob2 />} />
-          {/* <Route path="/apply" element={<Apply />} /> */}
+          <Route path="/apply" element={<Apply />} /> 
           <Route path="/question" element={<Question />} />
         <Route path="/signup" element={<SignUp />}/>
       <Route path="/empreg" element={<Empreg/>} />
