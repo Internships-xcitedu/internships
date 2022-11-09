@@ -41,7 +41,7 @@ const Skills = () => {
             <div className="w-10/12 font-bold flex justify-end">
               <Link
                 to="#"
-                className="ml-auto font-semibold text-2xl font-['Segoe UI'] border-[#F97316] border text-[#F97316] rounded-3xl px-8 py-2">
+                className="ml-auto font-semibold text-2xl font-['Segoe UI'] border-[#F97316] border text-[#F97316] rounded-3xl px-8 py-1">
                 next
               </Link>
             </div>
