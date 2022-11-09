@@ -7,7 +7,7 @@ const SignUp = () => {
   return (
     <>
     <Navbar/>
-    <div className='bg-[#F5F8FB] w-[386px] sm:w-[714px] h-[600px] absolute top-[18%] sm:top-[80px] left-[0px] sm:left-[404px] container1 '>
+    <div className=' bg-gray-100 w-[386px] sm:w-[714px] h-[600px] absolute top-[18%] sm:top-[80px] left-[0px] sm:left-[404px] container1 '>
       <h2 className='absolute top-[50px] left-[130px] sm:left-[270px]  font-[400] text-[36px]'>Signup!</h2>
       <form>
         <div className=' inline absolute  top-[120px] left-[10%]'>
