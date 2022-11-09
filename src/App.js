@@ -8,11 +8,12 @@ import PersonalDetails from "./Components/DynamicComponents/PersonalDetails";
 import Education from "./Components/DynamicComponents/Education";
 import Certificate from "./Components/DynamicComponents/Certificate";
 import Profile from "./Components/DynamicComponents/Profile";
+import Login from "./Components/Login/Login";
 function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home/>}></Route>
+        <Route path="/" element={<Login/>}></Route>
         <Route path="/slider" element={<Slidebar />}>
           <Route index element={<Skills/>}></Route>
           <Route path="details" element={<PersonalDetails/>}></Route>
