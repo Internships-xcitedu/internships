@@ -10,15 +10,20 @@ import PersonalDetails from "./Components/DynamicComponents/PersonalDetails";
 import Education from "./Components/DynamicComponents/Education";
 import Certificate from "./Components/DynamicComponents/Certificate";
 import Profile from "./Components/DynamicComponents/Profile";
+
+import Login from "./Components/Login/Login";
+
 import SignUp from "./Components/empsignup/Signup";
 import Empreg from "./Components/empsignup/Empreg";
 import Question from "./Components/Questions/Question";
 import Postjob2 from "./Components/PostJob2/PostJob2";
+
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
+        <Route path="/login" element={<Login/>}></Route>
         <Route path="/slider" element={<Slidebar />}>
           <Route index element={<Skills/>}></Route>
           <Route path="details" element={<PersonalDetails/>}></Route>
