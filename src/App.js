@@ -1,19 +1,19 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Apply from "./Components/Apply/Apply";
-import { Routes, Route } from "react-router-dom";
-import Home from "./Components/Home/Home";
-import Exprience from "./Components/DynamicComponents/Exprience";
-import Slidebar from "./Components/DynamicComponents/Slidebar";
-import Skills from "./Components/DynamicComponents/Skills";
-import PersonalDetails from "./Components/DynamicComponents/PersonalDetails";
-import Education from "./Components/DynamicComponents/Education";
 import Certificate from "./Components/DynamicComponents/Certificate";
+import Education from "./Components/DynamicComponents/Education";
+import Exprience from "./Components/DynamicComponents/Exprience";
+import PersonalDetails from "./Components/DynamicComponents/PersonalDetails";
 import Profile from "./Components/DynamicComponents/Profile";
-import Login from "./Components/Login/Login";
-import SignUp from "./Components/empsignup/Signup";
+import Skills from "./Components/DynamicComponents/Skills";
+import Slidebar from "./Components/DynamicComponents/Slidebar";
 import Empreg from "./Components/empsignup/Empreg";
-import Question from "./Components/Questions/Question";
+import SignUp from "./Components/empsignup/Signup";
+import Home from "./Components/Home/Home";
+import Login from "./Components/Login/Login";
 import Postjob2 from "./Components/PostJob2/PostJob2";
+import Question from "./Components/Questions/Question";
 
 function App() {
   return (
