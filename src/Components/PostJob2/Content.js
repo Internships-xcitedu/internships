@@ -88,10 +88,10 @@ const Content = () => {
                 className="w-96 h-8 border-solid border-2  border-gray-300 rounded-lg  bg-gray-100"
               />
             </div>
-            <button className=" border-solid border-2 border-gray-300 rounded-2xl bg-gray-200 p-1 mt-4 mr-4">
+            <button className=" border-solid border-2 border-gray-300 rounded-2xl bg-gray-200 p-1 px-3 mt-4 mr-4">
               Figma
             </button>
-            <button className=" border-solid border-2 border-gray-300 rounded-2xl bg-gray-200 p-1 mt-4">
+            <button className=" border-solid border-2 border-gray-300 rounded-2xl bg-gray-200 p-1  px-3 mt-4">
               UI Design
             </button>
           </div>
