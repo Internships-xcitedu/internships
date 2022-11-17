@@ -6,13 +6,13 @@ const Home = () => {
   return (
     <>
       <div className="w-screen tablet:flex">
-        <div className="bg-pumpkinOrange   h-480 flex flex-col items-center justify-center gap-12 tablet:w-96 tablet:h-screen laptopMd:h-screen">
+        <div className="bg-pumpkinOrange   h-480 flex flex-col items-center justify-center gap-12 tablet:w-96 tablet:h-screen tablet:gap-36 laptopMd:h-screen laptopMd:gap-20">
           <h1 className="main-page-logo">
             XcitEducation
           </h1>
           <img src={frame_1} alt="" className="w-80 laptopMd:mt-28" />
         </div>
-        <div className="w-screen tablet:flex flex-col justify-center">
+        <div className="w-screen tablet:flex flex-col justify-center tablet:gap-28 laptopMd:gap-9">
           <div className="flex items-center justify-evenly  mt-5 laptopMd:-mt-20 laptopMd:mb-24">
             
 
