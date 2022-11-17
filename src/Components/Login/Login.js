@@ -8,10 +8,10 @@ const Login = () => {
   // console.log(student);
   // console.log(employer);
   return (
-    <div className="">
+    <div className="pt-16">
       <div className="container mx-auto">
         <div className="flex justify-center items-center my-[3.4%]">
-          <form className="w-[500px] h-[570px] bg-[#F5F5F5] rounded-2xl p-8">
+          <form className="w-[500px] h-[570px]  bg-gray-100 rounded-2xl p-8">
             <h1 className="font-['poppins'] text-3xl font-normal text-[#000000] not-italic text-center" >Login</h1>
             <div className="flex justify-evenly items-center my-7">
               <div className="">
