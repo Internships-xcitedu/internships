@@ -3,6 +3,17 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      screens:{
+        'mobileMd': '375px',
+        'mobileLg': '425px',
+        'tablet': '768px',
+        'laptopSm': '800px',
+        'laptopMd': '1024px',
+        'laptopLg': '1280px',
+        'desktopSm': '1366px',
+        'desktopMd': '1440px',
+        'desktopLg': '1920px',
+      },
       colors: {
         'brightGrey': "#374151",
         'pumpkinOrange': "#F97316",
@@ -23,7 +34,8 @@ module.exports = {
       width: {
         600: "600px",
         70: "300px",
-        512: "32rem",
+        512: "20rem",
+        480: "30rem",
        
       },
       border: {
