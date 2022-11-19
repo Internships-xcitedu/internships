@@ -15,6 +15,7 @@ import Login from "./Components/Login/Login";
 // import Navbar from "./Components/PostJob2/Navbar";
 import Postjob2 from "./Components/PostJob2/PostJob2";
 import Question from "./Components/Questions/Question";
+import Register from "./Components/Register/Register";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/login" element={<Login />}></Route>
+        <Route path="/register" element={<Register/>}></Route>
         <Route path="/slider" element={<Slidebar />}>
           <Route index element={<Skills />}></Route>
           <Route path="details" element={<PersonalDetails />}></Route>
