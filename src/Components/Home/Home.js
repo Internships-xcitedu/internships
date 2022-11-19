@@ -16,7 +16,7 @@ const Home = () => {
           <div className=" text-black flex items-center justify-evenly mt-5  iPadAir:mt-64 laptopLg:-mt-16  desktopSm:-mt-4">
             
 
-            <Link to='/login' className="navbar-btn">
+            <Link to='/register' className="navbar-btn">
             Register now
             </Link>
            
