@@ -18,7 +18,7 @@ const Content = () => {
 
               <div>
                 <p className="mobileMd:text-sm laptopMd:text-2xl desktopMd:text-xl not-italic font-semibold leading-7 pt-5">
-                  Question 1{" "}
+                  Question 1
                 </p>
                 <div className="con3">
                   <textarea
@@ -30,7 +30,7 @@ const Content = () => {
                   ></textarea>
                 </div>
                 <p className="mobileMd:text-sm laptopMd:text-2xl desktopMd:text-xl  not-italic font-semibold leading-7 mobileMd:pt-3 pt-5">
-                  Question 2{" "}
+                  Question 2
                 </p>
                 <div className="con3">
                   <textarea
@@ -45,7 +45,7 @@ const Content = () => {
             </div>
             <div className=" desktopMd:pt-8 mobileMd:pt-2 mobileMd:ml-28 desktopMd:ml-0 tablet:ml-56 laptopMd:ml-72 laptopMd:mt-2">
               <p className="mobileMd:text-xs mobileMd:ml-6 laptopMd:text-xl desktopMd:text-xl not-italic font-semibold leading-7 desktopMd:ml-72 ">
-                +Add another question
+                +Add another question 
               </p>
             </div>
           </div>
