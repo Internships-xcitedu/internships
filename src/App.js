@@ -12,6 +12,7 @@ import Empreg from "./Components/empsignup/Empreg";
 import SignUp from "./Components/empsignup/Signup";
 import Home from "./Components/Home/Home";
 import Login from "./Components/Login/Login";
+// import Navbar from "./Components/PostJob2/Navbar";
 import Postjob2 from "./Components/PostJob2/PostJob2";
 import Question from "./Components/Questions/Question";
 
@@ -31,6 +32,8 @@ function App() {
         </Route>
         <Route path="/postjob2" element={<Postjob2 />} />
         <Route path="/apply" element={<Apply />} />
+        {/* <Route path="/navbar" element={<Navbar />} /> */}
+
         <Route path="/question" element={<Question />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/empreg" element={<Empreg />} />

@@ -47,7 +47,6 @@ const Home = () => {
                 <i className="fa-solid fa-magnifying-glass -ml-8 text-osloGrey text-xl"></i>
               </div>
               <div>
-                
                 <input
                   className="main-page-input"
                   type="text"
@@ -55,7 +54,6 @@ const Home = () => {
                 />
                 <i className="fa-solid fa-location-dot -ml-8 text-osloGrey text-xl"></i>
               </div>
-
               <button className="bg-pumpkinOrange text-black w-48 h-11 rounded-full mb-10 hover:bg-blue-400 font-bold laptopMd:text-2xl ">
                 Search
               </button>
