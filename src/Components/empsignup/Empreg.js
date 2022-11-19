@@ -5,7 +5,14 @@ const Empreg = () => {
   const handleChange = {};
   return (
     <div>
-      <Navbar/>
+      <div className="sec absolute top-[240px] left-[87px] font-[600] text-[30px]">
+        <p>Posted Jobs</p>
+        <hr className="w-[170px] mt-[10px]"/>
+        <p>Applications</p>
+        <hr className="w-[170px] mt-[10px]"/>
+        <p>Messages</p>
+        <hr className="w-[170px] mt-[10px]"/>
+      </div>
       <h2 className="absolute left-[10px] md:left-[356px] top-[75px] md:top-[110px] font-[400] text-[32px]">
         Complete Your Profile
       </h2>
