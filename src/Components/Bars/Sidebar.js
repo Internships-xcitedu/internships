@@ -28,7 +28,7 @@ const Sidebar = () => {
           >
             Messages
           </a>
-          <hr className="border-1 border-gray-300 tablet:w-28 laptopMd:w-36 " />
+          <hr className="border-1 border-gray-300 tablet:w-28 laptopMd:w-36 desktopMd:w-52" />
         </nav>
       </div>
     </>
