@@ -21,7 +21,6 @@ module.exports = {
         'sunYellow': "#F9E615",
         'nobel': "#B4B2B2",
         'osloGrey': "#8F8C8C",
-
       },
 
       margin: {
