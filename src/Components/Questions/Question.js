@@ -2,7 +2,7 @@ import React from "react";
 import Content from "./Content";
 import Sidebar from "../../Components/PostJob2/Sidebar";
 import Navbar from "../../Components/PostJob2/Navbar";
-import "./question.css"
+import "./question.css";
 const Question = () => {
   return (
     <>
