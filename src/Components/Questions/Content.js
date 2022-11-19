@@ -26,7 +26,7 @@ const Content = () => {
                     id=""
                     cols="50"
                     rows="4"
-                    className="desktopMd:w-96 mobileMd:w-60 tablet:w-80 laptopMd:w-480 desktopMd:h-20 mobileMd:h-7 tablet:h-14 laptopMd:h-20 border-solid border-2  border-gray-300 rounded-lg pl-2 bg-gray-100 pt-1"
+                    className="desktopMd:w-96 mobileMd:w-60 tablet:w-80 laptopMd:w-480 desktopMd:h-20 mobileMd:h-7 tablet:h-14 laptopMd:h-20 border-solid border-2  border-gray-300 rounded-lg pl-2 bg-gray-100"
                   ></textarea>
                 </div>
                 <p className="mobileMd:text-sm laptopMd:text-2xl desktopMd:text-xl  not-italic font-semibold leading-7 mobileMd:pt-3 pt-5">

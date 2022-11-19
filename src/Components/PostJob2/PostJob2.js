@@ -10,9 +10,7 @@ const Postjob2 = () => {
       <div className="postjob2container">
         <Navbar />
         <div>
-
-        <RNavbar />
-
+          <RNavbar />
         </div>
         <div className="postjob2">
           <Sidebar />
