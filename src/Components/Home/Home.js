@@ -14,20 +14,20 @@ const Home = () => {
         </div>
         <div className="w-screen h-screen tablet:flex flex-col justify-center tablet:gap-28  iPadAir:justify-evenly iPadAir:-mt-64 iPadAir:gap-96 laptopMd:-mt-48 laptopLg:-mt-6 laptopLg:gap-64">
           <div className=" text-black flex items-center justify-evenly mt-5  iPadAir:mt-64 laptopLg:-mt-16  desktopSm:-mt-4">
-            
+
 
             <Link to='/register' className="navbar-btn">
-            Register now
+              Register now
             </Link>
-           
+
             <Link to='/login' className="navbar-btn">
               Login
             </Link>
             <div className="bg-black w-1 h-9"></div>
-           
-            
-            <Link to='#' className="navbar-btn">
-            For employers
+
+
+            <Link to='/forEmployers' className="navbar-btn">
+              For employers
             </Link>
           </div>
           <div className="mt-10 flex flex-col items-center justify-center iPadAir:-mt-64">
