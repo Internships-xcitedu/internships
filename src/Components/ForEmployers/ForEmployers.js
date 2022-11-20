@@ -17,6 +17,12 @@ const ForEmployers = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className='flex items-end justify-end'>
+                    <div className='text-3xl font-normal text-[#2F2E41] border border-pumpkinOrange w-[700px] h-[80px] flex items-center justify-center mt-12 '>
+                        <p>Hire your ideal candidate now.</p>
+                    </div>
+                </div>
             </div>
         </>
     );
