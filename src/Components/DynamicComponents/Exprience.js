@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import DateRangePicker from 'flowbite-datepicker/DateRangePicker';
+// import DateRangePicker from 'flowbite-datepicker/DateRangePicker';
 
 const Exprience = () => {
   const [jobTitle, setJobTitle] = useState();

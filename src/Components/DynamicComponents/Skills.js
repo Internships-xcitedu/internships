@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Icon } from '@iconify/react';
+// import { ggfgfg } from '@iconify/react';
 const Skills = () => {
   return (
     <div className="container mx-auto md:px-0 px-4">
