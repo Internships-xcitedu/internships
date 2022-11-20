@@ -2,7 +2,7 @@
 @tailwind components;
 
 .main-page-logo {
-  @apply bg-brightGrey w-60 h-16 text-4xl text-white text-center pt-2 tablet:w-48 tablet:h-12 tablet:text-2xl tablet:-mt-28 laptopMd:-mt-40;
+  @apply bg-brightGrey w-60 h-16 text-4xl text-white text-center pt-2 tablet:w-48 tablet:h-12 tablet:text-2xl tablet:-mt-28 laptopMd:-mt-40 iPadAir:-mt-80 desktopSm:w-80 desktopSm:h-20 desktopSm:text-5xl desktopSm:-mt-20 desktopMd:-mt-36;
 }
 
 .navbar-btn {
@@ -10,7 +10,7 @@
 }
 
 .main-page-input {
-  @apply w-80 h-14 bg-nobel bg-opacity-10 placeholder:text-osloGrey placeholder:text-center placeholder:text-xl rounded-2xl text-2xl  border-2 laptopMd:w-480;
+  @apply w-80 h-14 bg-nobel bg-opacity-10 placeholder:text-osloGrey placeholder:text-center placeholder:text-xl rounded-2xl text-2xl  border-2 iPadAir:w-96 laptopMd:w-480;
 }
 
 @tailwind utilities;

@@ -8,6 +8,7 @@ module.exports = {
         'mobileLg': '425px',
         'tablet': '768px',
         'laptopSm': '800px',
+        'iPadAir': '820px',
         'laptopMd': '1024px',
         'laptopLg': '1280px',
         'desktopSm': '1366px',
@@ -20,7 +21,6 @@ module.exports = {
         'sunYellow': "#F9E615",
         'nobel': "#B4B2B2",
         'osloGrey': "#8F8C8C",
-
       },
 
       margin: {
