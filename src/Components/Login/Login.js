@@ -1,14 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "../../Components/Login/Login.css"
 import StudentLogin from './StudentLogin';
 const Login = () => {
-  const [isChecked, setIsChecked] = useState(null)
-  const [student, setStudent] = useState(false)
-  const [employer, setEmployer] = useState(false)
-  // console.log(student);
-  // console.log(employer);
   return (
-    <div className="pt-16">
+    <div className="sm:pt-16 py-2 sm:mx-0 mx-6">
       <div className="container mx-auto">
         <div className="flex justify-center items-center my-[3.4%]">
           <form className="w-[500px] h-[570px]  bg-gray-100 rounded-2xl p-8">
