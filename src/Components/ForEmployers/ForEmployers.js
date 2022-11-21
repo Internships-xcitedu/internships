@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import image from '../../Asset/images/Frame_1081.png'
 const ForEmployers = () => {
     return (
@@ -10,10 +11,14 @@ const ForEmployers = () => {
                     </div>
                     <div className='flex items-center justify-center ml-4 mobileMd:mt-5 mobileLg:mt-5'>
                         <div className='border-2 border-pumpkinOrange rounded-full w-[170px] h-[50px] flex items-center justify-center'>
-                            <p> Register Now</p>
+                            <Link to='/register'>
+                                Register now
+                            </Link>
                         </div>
                         <div className='font-semibold text-2xl text-pumpkinOrange ml-8'>
-                            <p> Login</p>
+                            <Link to='/login'>
+                                Login
+                            </Link>
                         </div>
                     </div>
                 </div>
