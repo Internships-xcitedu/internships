@@ -3,7 +3,7 @@ import image from '../../Asset/images/Frame_1081.png'
 const ForEmployers = () => {
     return (
         <>
-            <div className='m-24'>
+            <div className='m-24 overflow-hidden'>
                 <div className='flex items-center justify-between desktopLg:flex-row desktopMd:flex-row desktopSm:flex-row laptopLg:flex-row laptopMd:flex-row laptopSm:flex-row iPadAir:flex-row mobileMd:flex-col mobileLg:flex-col'>
                     <div>
                         <p className='font-bold text-2xl text-white bg-brightGrey w-[250px] h-[60px] flex items-center justify-center'>XcitEducation</p>
@@ -20,11 +20,11 @@ const ForEmployers = () => {
 
 
 
-                <div className='flex items-center justify-between'>
-                    <div className='w-1/2 pt-12'>
+                <div className='flex items-center justify-between desktopLg:flex-row desktopMd:flex-row desktopSm:flex-row laptopLg:flex-col laptopMd:flex-col laptopSm:flex-col iPadAir:flex-col mobileMd:flex-col mobileLg:flex-col'>
+                    <div className='w-1/2 desktopLg:w-1/2 desktopMd:w-2/5 desktopSm:w-2/5  pt-12'>
                         <img src={image} alt="" />
                     </div>
-                    <div className='flex flex-col items-center justify-center w-1/2 p-12'>
+                    <div className='flex flex-col items-center justify-center desktopLg:w-1/2 laptopMd:w-full p-12'>
                         <div className='flex items-center justify-end '>
                             <div className='text-3xl font-normal text-[#2F2E41] border-b border-pumpkinOrange flex items-center justify-center mt-12 p-4'>
                                 <p>Hire your ideal candidate now.</p>
@@ -33,8 +33,8 @@ const ForEmployers = () => {
                         <div className='mt-12 mb-12 text-brightGrey text-3xl font-normal'>
                             <p>How it works</p>
                         </div>
-                        <div className='grid grid-cols-3 gap-12'>
-                            <div className='flex flex-col items-center justify-center text-center'>
+                        <div className='grid desktopLg:grid-cols-3 desktopMd:grid-cols-3 desktopSm:grid-cols-3 laptopLg:grid-cols-3 gap-12'>
+                            <div className='flex flex-col items-center justify-center text-center '>
                                 <div className='bg-pumpkinOrange rounded-full w-[60px] h-[60px] flex items-center justify-center'>
                                     <p className='text-3xl font-bold text-white'>1</p>
                                 </div>
@@ -43,7 +43,7 @@ const ForEmployers = () => {
                                     Register as an employer and provide details about the company.
                                 </p>
                             </div>
-                            <div className='flex flex-col items-center justify-center text-center'>
+                            <div className='flex flex-col items-center justify-center text-center '>
                                 <div className='bg-pumpkinOrange rounded-full w-[60px] h-[60px] flex items-center justify-center'>
                                     <p className='text-3xl font-bold text-white'>2</p>
                                 </div>
@@ -52,7 +52,7 @@ const ForEmployers = () => {
                                     Post jobs under different categoies, add job description and requirements.
                                 </p>
                             </div>
-                            <div className='flex flex-col items-center justify-center text-center'>
+                            <div className='flex flex-col items-center justify-center text-center '>
                                 <div className='bg-pumpkinOrange rounded-full w-[60px] h-[60px] flex items-center justify-center'>
                                     <p className='text-3xl font-bold text-white'>3</p>
                                 </div>
