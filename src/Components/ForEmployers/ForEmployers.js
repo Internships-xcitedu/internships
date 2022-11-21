@@ -4,11 +4,11 @@ const ForEmployers = () => {
     return (
         <>
             <div className='m-24'>
-                <div className='flex items-center justify-between'>
+                <div className='flex items-center justify-between desktopLg:flex-row desktopMd:flex-row desktopSm:flex-row laptopLg:flex-row laptopMd:flex-row laptopSm:flex-row iPadAir:flex-row mobileMd:flex-col mobileLg:flex-col'>
                     <div>
                         <p className='font-bold text-2xl text-white bg-brightGrey w-[250px] h-[60px] flex items-center justify-center'>XcitEducation</p>
                     </div>
-                    <div className='flex items-center justify-center'>
+                    <div className='flex items-center justify-center ml-4 mobileMd:mt-5 mobileLg:mt-5'>
                         <div className='border-2 border-pumpkinOrange rounded-full w-[170px] h-[50px] flex items-center justify-center'>
                             <p> Register Now</p>
                         </div>
