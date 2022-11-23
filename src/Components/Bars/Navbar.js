@@ -16,20 +16,17 @@ const Navbar = () => {
               href="#"
               className="border-2 rounded-3xl border-orange-400 font-semibold leading-7 
                     mobileMd:text-xs mobileMd:border-0 mobileMd:px-0 mobileMd:mr-3 mobileMd:mt-[15px]
-                    tablet:border-2 tablet:text-base tablet:px-4 tablet:py-1 tablet:h-10 tablet:mt-2 tablet:mr-10
-                    laptopMd:text-xl laptopMd:h-14 laptopMd:px-6 laptopMd:py-2 laptopMd:mr-24
-                    desktopMd:text-3xl desktopMd:h-14 desktopMd:px-8 desktopMd:py-2 desktopMd:mr-24
+                    tablet:border-2 tablet:text-base tablet:px-4 tablet:py-1 tablet:h-10 tablet:mt-2 
+                    laptopMd:text-xl laptopMd:h-14 laptopMd:px-6 laptopMd:py-2 
+                    desktopMd:text-3xl desktopMd:h-14 desktopMd:px-8 desktopMd:py-2 
                     "
             >
               Post a job
             </a>
             <i
-              className="fa-solid fa-bell mt-10 fa-sm mx-8 
-            mobileMd:mx-0 mobileMd:fa-xl mobileMd:mr-2 mobileMd:mt-6
-            tablet:mr-6 tablet:mt-7 tablet:fa-lg  laptopMd:fa-xl laptopMd:mr-10 laptopMd:mt-7
-            desktopMd:fa-xl desktopMd:mr-10 desktopMd:mt-8
-            "
-            ></i>
+              className="fa-solid fa-bell mt-10 fa-sm mx-8 mobileMd:mx-0 mobileMd:mr-2 mobileMd:mt-6
+               tablet:mx-10 tablet:mt-7 tablet:text-[25px] laptopMd:mx-16  laptopMd:mt-9 laptopMd:text-[30px]
+               desktopMd:mx-24 desktopMd:text-[35px]"></i>
             <p
               className="font-semibold text-2xl leading-8 mt-6 mr-2 
               mobileMd:text-xs mobileMd:mt-[14px] mobileLg:mt-[14px] 
@@ -72,31 +69,6 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-
-      {/* <nav className="w-screen desktopMd:h-20 mobileMd:h-14 flex flex-wrap items-center mt-2 shadow-lg ">
-        <a className=" inline-flex items-center"href="#">
-        <img className="mobileMd:h-12 desktopMd:h-20" src={logo} alt="logo" />
-        </a>
-        <button className=" inline-flex p-3 hover:bg-gray-300 rounded desktopMd:hidden desktopSm:hidden desktopLg:hidden laptopSm:hidden laptopMd:hidden laptopLg:hidden">
-        <i className="fa-solid fa-bars text-black"></i>
-        </button>
-        <div 
-        className="top-nav w-full laptopLg:inline-flex laptopLg:flex-grow laptopLg:w-auto laptopSm:w-auto laptopMd:w-auto desktopSm:w-auto desktopMd:w-auto desktopLg:w-auto "
-        id="navigation"
-        >
-          <div className=" laptopLg:inline-flex laptopLg:flex-row laptopLg:ml-auto laptopSm:ml-auto laptopMd:ml-auto desktopSm:ml-auto desktopMd:ml-auto desktopLg:ml+-auto ">
-            <a href="#">
-               <span>Post a job</span>
-            </a>
-            <a href="#">
-               <span>Notification</span>
-            </a>
-            <a href="#">
-              <a>Employer Name</a>
-            </a>
-          </div>
-        </div>
-      </nav> */}
     </>
   );
 };

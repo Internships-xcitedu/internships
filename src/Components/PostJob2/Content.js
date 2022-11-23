@@ -35,7 +35,7 @@ const Content = () => {
         <p className="font-semibold not-italic leading-10 text-left mobileMd:text-sm tablet:text-base laptopMd:text-2xl desktopMd:text-3xl">
           Add a few more details
         </p>
-        <div className="box-border desktopMd:w-[600px] mobileMd:w-[300px] tablet:w-[450px] laptopMd:w-[600px] desktopMd:h-[550px] mobileMd:h-[330px] tablet:h-[450px] laptopMd:h-[550px] bg-gray-100 text-left mt-6 rounded-2xl pt-3">
+        <div className="box-border desktopMd:w-[600px] mobileMd:w-[300px] tablet:w-[450px] laptopMd:w-[600px] desktopMd:h-[580px] mobileMd:h-[330px] tablet:h-[450px] laptopMd:h-[580px] bg-gray-100 text-left mt-6 rounded-2xl pt-3">
           <div className="flex flex-col items-center tablet:pt-4">
             <div>
               <p className="mobileMd:text-sm laptopMd:text-2xl desktopMd:text-xl not-italic font-semibold leading-7 mobileMd:pt-3">
@@ -94,13 +94,13 @@ const Content = () => {
                   border-gray-300 rounded-lg pl-2 bg-gray-100"
               />
             </div>
-            <div>
+            <div className="my-3">
             <button className=" border-solid border-2 border-gray-300 rounded-2xl bg-gray-200 p-1 px-3 mt-4 
-            mr-4 mobileMd:text-xs mobileMd:px-2">
+            mr-4 mobileMd:text-xs mobileMd:px-2 tablet:text-sm tablet:px-3 laptopMd:text-base">
               Figma
             </button>
             <button className=" border-solid border-2 border-gray-300 rounded-2xl bg-gray-200 p-1  px-3 mt-4 
-            mobileMd:text-xs mobileMd:px-2">
+            mobileMd:text-xs mobileMd:px-2 tablet:text-sm tablet:px-3 laptopMd:text-base">
               UI Design
             </button>
             </div>
