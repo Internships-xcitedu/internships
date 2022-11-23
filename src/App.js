@@ -25,8 +25,8 @@ function App() {
         <Route path="/login" element={<Login />}></Route>
         <Route path="/register" element={<Register/>}></Route>
         <Route path="/slider" element={<Slidebar />}>
-          <Route index element={<Skills />}></Route>
-          <Route path="details" element={<PersonalDetails />}></Route>
+          <Route index element={<PersonalDetails />}></Route>
+          <Route path="skills" element={<Skills/>}></Route>
           <Route path="education" element={<Education />}></Route>
           <Route path="exprience" element={<Exprience />}></Route>
           <Route path="certificate" element={<Certificate />}></Route>
