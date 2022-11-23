@@ -10,6 +10,7 @@ import Skills from "./Components/DynamicComponents/Skills";
 import Slidebar from "./Components/DynamicComponents/Slidebar";
 import Empreg from "./Components/empsignup/Empreg";
 import SignUp from "./Components/empsignup/Signup";
+import ForEmployers from "./Components/ForEmployers/ForEmployers";
 import Home from "./Components/Home/Home";
 import Login from "./Components/Login/Login";
 // import Navbar from "./Components/PostJob2/Navbar";
@@ -23,7 +24,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/login" element={<Login />}></Route>
-        <Route path="/register" element={<Register/>}></Route>
+        <Route path="/register" element={<Register />}></Route>
+        <Route path="/forEmployers" element={<ForEmployers />}></Route>
         <Route path="/slider" element={<Slidebar />}>
           <Route index element={<PersonalDetails />}></Route>
           <Route path="skills" element={<Skills/>}></Route>
