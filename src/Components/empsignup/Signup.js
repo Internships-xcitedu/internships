@@ -1,6 +1,7 @@
 import React from 'react'
 import './Signup.css'
 import {Link} from 'react-router-dom'
+
 const SignUp = () => {
   return (
     <>
