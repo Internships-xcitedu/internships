@@ -3,7 +3,7 @@ import "./sidebar.css";
 const Sidebar = () => {
   return (
     <>
-      <div className=" a w-52 mt-20 pl-11">
+      <div className=" a w-52 laptopLg:mt-20 tablet:mt-[150px] pl-5 ">
         <nav class=" flex flex-col justify-center">
           <a
             href="/postedjob"
