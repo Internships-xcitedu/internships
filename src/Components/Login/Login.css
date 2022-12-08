@@ -66,3 +66,9 @@
 .input-field:focus {
   outline: none;
 }
+
+@media (max-width:644px) {
+  .input-field {
+    width: 85%;
+  }
+}

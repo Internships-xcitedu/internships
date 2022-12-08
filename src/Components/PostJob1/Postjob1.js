@@ -1,7 +1,7 @@
-import React from "react";
+/*import React from "react";
 import Content from "../PostJob2/Content";
-import Navbar from "../PostJob2/Navbar";
-import Sidebar from "../PostJob2/Sidebar";
+//import Navbar from "../PostJob2/Navbar";
+//import Sidebar from "../PostJob2/Sidebar";
 
 const Postjob1 = () => {
   return (
@@ -16,4 +16,4 @@ const Postjob1 = () => {
   );
 };
 
-export default Postjob1;
+export default Postjob1;*/

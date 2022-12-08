@@ -10,11 +10,14 @@ import Skills from "./Components/DynamicComponents/Skills";
 import Slidebar from "./Components/DynamicComponents/Slidebar";
 import Empreg from "./Components/empsignup/Empreg";
 import SignUp from "./Components/empsignup/Signup";
+import ForEmployers from "./Components/ForEmployers/ForEmployers";
 import Home from "./Components/Home/Home";
 import Login from "./Components/Login/Login";
+// import Navbar from "./Components/PostJob2/Navbar";
 import Postjob2 from "./Components/PostJob2/PostJob2";
 import Postjob1 from "./Components/PostJob1/Postjob1";
 import Question from "./Components/Questions/Question";
+import Register from "./Components/Register/Register";
 
 function App() {
   return (
@@ -22,9 +25,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/login" element={<Login />}></Route>
+        <Route path="/register" element={<Register />}></Route>
+        <Route path="/forEmployers" element={<ForEmployers />}></Route>
         <Route path="/slider" element={<Slidebar />}>
-          <Route index element={<Skills />}></Route>
-          <Route path="details" element={<PersonalDetails />}></Route>
+          <Route index element={<PersonalDetails />}></Route>
+          <Route path="skills" element={<Skills/>}></Route>
           <Route path="education" element={<Education />}></Route>
           <Route path="exprience" element={<Exprience />}></Route>
           <Route path="certificate" element={<Certificate />}></Route>
@@ -33,6 +38,8 @@ function App() {
         <Route path="/postjob2" element={<Postjob2 />} />
         <Route path="/postjob1" element={<Postjob1 />} />
         <Route path="/apply" element={<Apply />} />
+        {/* <Route path="/navbar" element={<Navbar />} /> */}
+
         <Route path="/question" element={<Question />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/empreg" element={<Empreg />} />
