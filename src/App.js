@@ -15,6 +15,7 @@ import Home from "./Components/Home/Home";
 import Login from "./Components/Login/Login";
 // import Navbar from "./Components/PostJob2/Navbar";
 import Postjob2 from "./Components/PostJob2/PostJob2";
+import Postjob1 from "./Components/PostJob1/Postjob1";
 import Question from "./Components/Questions/Question";
 import Register from "./Components/Register/Register";
 
@@ -35,6 +36,7 @@ function App() {
           <Route path="profile" element={<Profile />}></Route>
         </Route>
         <Route path="/postjob2" element={<Postjob2 />} />
+        <Route path="/postjob1" element={<Postjob1 />} />
         <Route path="/apply" element={<Apply />} />
         {/* <Route path="/navbar" element={<Navbar />} /> */}
 
