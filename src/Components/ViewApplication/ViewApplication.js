@@ -81,7 +81,7 @@ desktopMd:mt-4 "
                     <Sidebar></Sidebar>
                 </div>
                 <div className='p-12 ml-32'>
-                    apparea
+                    <ApplicationArea></ApplicationArea>
                 </div>
             </div>
         </>
