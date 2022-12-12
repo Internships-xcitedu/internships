@@ -78,7 +78,7 @@ desktopMd:mt-4 "
             </div>
             <div className='flex '>
                 <div>
-                    sidebar
+                    <Sidebar></Sidebar>
                 </div>
                 <div className='p-12 ml-32'>
                     apparea
