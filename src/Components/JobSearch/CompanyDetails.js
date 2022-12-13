@@ -1,11 +1,13 @@
 import React from "react";
+import { TbBadge } from "react-icons/tb";
+import { MdLocationOn } from "react-icons/md";
 
 const CompanyDetails = () => {
   return (
     <div className="my-10 px-16">
       <div class="grid  laptopLg:grid-cols-3 laptopMd:grid-cols-2 laptopSm:grid-cols-2 mobileMd:grid-cols-1 mobileSm:grid-cols-1 gap-8">
         <div className="border rounded-lg p-6">
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-4">
             <div>
               <img
                 className="w-16"
@@ -13,14 +15,19 @@ const CompanyDetails = () => {
                 alt="img"
               />
             </div>
-            <div>
+            <div className="col-span-2">
               <h1 className="font-semibold text-xl">Job Title</h1>
               <p>
                 <span>Company Name</span>
               </p>
-              <p>Location</p>
+              <p className="flex font-semibold mt-2">
+                <MdLocationOn className="text-pumpkinOrange text-xl  mr-2" />
+                Location
+              </p>
             </div>
-            <div className="grid justify-items-end">hello</div>
+            <div className="grid justify-items-end text-pumpkinOrange text-6xl">
+              <TbBadge />
+            </div>
           </div>
           <p className="my-4 text-osloGrey">
             Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do
@@ -51,7 +58,7 @@ const CompanyDetails = () => {
           </div>
         </div>
         <div className="border rounded-lg p-6">
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-4">
             <div>
               <img
                 className="w-16"
@@ -59,14 +66,19 @@ const CompanyDetails = () => {
                 alt="img"
               />
             </div>
-            <div>
+            <div className="col-span-2">
               <h1 className="font-semibold text-xl">Job Title</h1>
               <p>
                 <span>Company Name</span>
               </p>
-              <p>Location</p>
+              <p className="flex font-semibold mt-2">
+                <MdLocationOn className="text-pumpkinOrange text-xl  mr-2" />
+                Location
+              </p>
             </div>
-            <div className="grid justify-items-end">hello</div>
+            <div className="grid justify-items-end text-pumpkinOrange text-6xl">
+              <TbBadge />
+            </div>
           </div>
           <p className="my-4 text-osloGrey">
             Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do
@@ -97,7 +109,7 @@ const CompanyDetails = () => {
           </div>
         </div>
         <div className="border rounded-lg p-6">
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-4">
             <div>
               <img
                 className="w-16"
@@ -105,14 +117,19 @@ const CompanyDetails = () => {
                 alt="img"
               />
             </div>
-            <div>
+            <div className="col-span-2">
               <h1 className="font-semibold text-xl">Job Title</h1>
               <p>
                 <span>Company Name</span>
               </p>
-              <p>Location</p>
+              <p className="flex font-semibold mt-2">
+                <MdLocationOn className="text-pumpkinOrange text-xl  mr-2" />
+                Location
+              </p>
             </div>
-            <div className="grid justify-items-end">hello</div>
+            <div className="grid justify-items-end text-pumpkinOrange text-6xl">
+              <TbBadge />
+            </div>
           </div>
           <p className="my-4 text-osloGrey">
             Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do
@@ -143,7 +160,7 @@ const CompanyDetails = () => {
           </div>
         </div>
         <div className="border rounded-lg p-6">
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-4">
             <div>
               <img
                 className="w-16"
@@ -151,14 +168,19 @@ const CompanyDetails = () => {
                 alt="img"
               />
             </div>
-            <div>
+            <div className="col-span-2">
               <h1 className="font-semibold text-xl">Job Title</h1>
               <p>
                 <span>Company Name</span>
               </p>
-              <p>Location</p>
+              <p className="flex font-semibold mt-2">
+                <MdLocationOn className="text-pumpkinOrange text-xl  mr-2" />
+                Location
+              </p>
             </div>
-            <div className="grid justify-items-end">hello</div>
+            <div className="grid justify-items-end text-pumpkinOrange text-6xl">
+              <TbBadge />
+            </div>
           </div>
           <p className="my-4 text-osloGrey">
             Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do
@@ -189,7 +211,7 @@ const CompanyDetails = () => {
           </div>
         </div>
         <div className="border rounded-lg p-6">
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-4">
             <div>
               <img
                 className="w-16"
@@ -197,14 +219,19 @@ const CompanyDetails = () => {
                 alt="img"
               />
             </div>
-            <div>
+            <div className="col-span-2">
               <h1 className="font-semibold text-xl">Job Title</h1>
               <p>
                 <span>Company Name</span>
               </p>
-              <p>Location</p>
+              <p className="flex font-semibold mt-2">
+                <MdLocationOn className="text-pumpkinOrange text-xl  mr-2" />
+                Location
+              </p>
             </div>
-            <div className="grid justify-items-end">hello</div>
+            <div className="grid justify-items-end text-pumpkinOrange text-6xl">
+              <TbBadge />
+            </div>
           </div>
           <p className="my-4 text-osloGrey">
             Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do
@@ -235,7 +262,7 @@ const CompanyDetails = () => {
           </div>
         </div>
         <div className="border rounded-lg p-6">
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-4">
             <div>
               <img
                 className="w-16"
@@ -243,14 +270,19 @@ const CompanyDetails = () => {
                 alt="img"
               />
             </div>
-            <div>
+            <div className="col-span-2">
               <h1 className="font-semibold text-xl">Job Title</h1>
               <p>
                 <span>Company Name</span>
               </p>
-              <p>Location</p>
+              <p className="flex font-semibold mt-2">
+                <MdLocationOn className="text-pumpkinOrange text-xl  mr-2" />
+                Location
+              </p>
             </div>
-            <div className="grid justify-items-end">hello</div>
+            <div className="grid justify-items-end text-pumpkinOrange text-6xl">
+              <TbBadge />
+            </div>
           </div>
           <p className="my-4 text-osloGrey">
             Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do
@@ -281,7 +313,7 @@ const CompanyDetails = () => {
           </div>
         </div>
         <div className="border rounded-lg p-6">
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-4">
             <div>
               <img
                 className="w-16"
@@ -289,14 +321,19 @@ const CompanyDetails = () => {
                 alt="img"
               />
             </div>
-            <div>
+            <div className="col-span-2">
               <h1 className="font-semibold text-xl">Job Title</h1>
               <p>
                 <span>Company Name</span>
               </p>
-              <p>Location</p>
+              <p className="flex font-semibold mt-2">
+                <MdLocationOn className="text-pumpkinOrange text-xl  mr-2" />
+                Location
+              </p>
             </div>
-            <div className="grid justify-items-end">hello</div>
+            <div className="grid justify-items-end text-pumpkinOrange text-6xl">
+              <TbBadge />
+            </div>
           </div>
           <p className="my-4 text-osloGrey">
             Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do
@@ -327,7 +364,7 @@ const CompanyDetails = () => {
           </div>
         </div>
         <div className="border rounded-lg p-6">
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-4">
             <div>
               <img
                 className="w-16"
@@ -335,14 +372,19 @@ const CompanyDetails = () => {
                 alt="img"
               />
             </div>
-            <div>
+            <div className="col-span-2">
               <h1 className="font-semibold text-xl">Job Title</h1>
               <p>
                 <span>Company Name</span>
               </p>
-              <p>Location</p>
+              <p className="flex font-semibold mt-2">
+                <MdLocationOn className="text-pumpkinOrange text-xl  mr-2" />
+                Location
+              </p>
             </div>
-            <div className="grid justify-items-end">hello</div>
+            <div className="grid justify-items-end text-pumpkinOrange text-6xl">
+              <TbBadge />
+            </div>
           </div>
           <p className="my-4 text-osloGrey">
             Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do
@@ -373,7 +415,7 @@ const CompanyDetails = () => {
           </div>
         </div>
         <div className="border rounded-lg p-6">
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-4">
             <div>
               <img
                 className="w-16"
@@ -381,14 +423,19 @@ const CompanyDetails = () => {
                 alt="img"
               />
             </div>
-            <div>
+            <div className="col-span-2">
               <h1 className="font-semibold text-xl">Job Title</h1>
               <p>
                 <span>Company Name</span>
               </p>
-              <p>Location</p>
+              <p className="flex font-semibold mt-2">
+                <MdLocationOn className="text-pumpkinOrange text-xl  mr-2" />
+                Location
+              </p>
             </div>
-            <div className="grid justify-items-end">hello</div>
+            <div className="grid justify-items-end text-pumpkinOrange text-6xl">
+              <TbBadge />
+            </div>
           </div>
           <p className="my-4 text-osloGrey">
             Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do
