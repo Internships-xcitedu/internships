@@ -9,7 +9,7 @@ const RNavbar = () => {
           Posted Jobs
         </Link>
 
-        <Link to="#" className="text-[10px] font-medium text-gray-500">
+        <Link to="/viewApplication" className="text-[10px] font-medium text-gray-500">
           Applications
         </Link>
 
