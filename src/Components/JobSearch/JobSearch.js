@@ -1,4 +1,5 @@
 import React from 'react';
+import Filters from './Filters';
 import Navbar from './Navbar';
 import Search from './Search';
 
@@ -8,6 +9,7 @@ const JobSearch = () => {
         <div>
             <Navbar/>
             <Search/>
+            <Filters/>
         </div>
     );
 };
