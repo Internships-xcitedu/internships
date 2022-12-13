@@ -18,7 +18,7 @@ import Postjob2 from "./Components/PostJob2/PostJob2";
 import Postjob1 from "./Components/PostJob1/Postjob1";
 import Question from "./Components/Questions/Question";
 import Register from "./Components/Register/Register";
-import JobSearch from "./Components/JobSearch/JobSearch";
+
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
         <Route path="/jobsearch" element={<JobSearch/>}/>
         <Route path="/slider" element={<Slidebar />}>
           <Route index element={<PersonalDetails />}></Route>
-          <Route path="skills" element={<Skills/>}></Route>
+          <Route path="skills" element={<Skills />}></Route>
           <Route path="education" element={<Education />}></Route>
           <Route path="exprience" element={<Exprience />}></Route>
           <Route path="certificate" element={<Certificate />}></Route>
@@ -40,6 +40,7 @@ function App() {
         <Route path="/postjob2" element={<Postjob2 />} />
         <Route path="/postjob1" element={<Postjob1 />} />
         <Route path="/apply" element={<Apply />} />
+        <Route path="/viewApplication" element={<ViewApplication />} />
         {/* <Route path="/navbar" element={<Navbar />} /> */}
 
         <Route path="/question" element={<Question />} />
