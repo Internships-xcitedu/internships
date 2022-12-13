@@ -18,7 +18,7 @@ import Postjob2 from "./Components/PostJob2/PostJob2";
 import Postjob1 from "./Components/PostJob1/Postjob1";
 import Question from "./Components/Questions/Question";
 import Register from "./Components/Register/Register";
-import ViewApplication from "./Components/ViewApplication/ViewApplication";
+
 
 function App() {
   return (
@@ -28,6 +28,7 @@ function App() {
         <Route path="/login" element={<Login />}></Route>
         <Route path="/register" element={<Register />}></Route>
         <Route path="/forEmployers" element={<ForEmployers />}></Route>
+        <Route path="/jobsearch" element={<JobSearch/>}/>
         <Route path="/slider" element={<Slidebar />}>
           <Route index element={<PersonalDetails />}></Route>
           <Route path="skills" element={<Skills />}></Route>
