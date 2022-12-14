@@ -1,10 +1,10 @@
 import React from "react";
-import { TbBadge } from "react-icons/tb";
+import { MdBookmarkBorder } from "react-icons/md";
 import { MdLocationOn } from "react-icons/md";
 
 const CompanyDetails = () => {
   return (
-    <div className="my-10 px-16">
+    <div className="my-10 laptopLg:px-16 laptopMd:px-10 laptopSm:px-8 mobilelg:px-6 mobileMd:px-4">
       <div class="grid  laptopLg:grid-cols-3 laptopMd:grid-cols-2 laptopSm:grid-cols-2 mobileMd:grid-cols-1 mobileSm:grid-cols-1 gap-8">
         <div className="border rounded-lg p-6">
           <div className="grid grid-cols-4">
@@ -25,8 +25,8 @@ const CompanyDetails = () => {
                 Location
               </p>
             </div>
-            <div className="grid justify-items-end text-pumpkinOrange text-6xl">
-              <TbBadge />
+            <div className="grid justify-items-end text-pumpkinOrange text-5xl">
+              <MdBookmarkBorder />
             </div>
           </div>
           <p className="my-4 text-osloGrey">
@@ -76,8 +76,8 @@ const CompanyDetails = () => {
                 Location
               </p>
             </div>
-            <div className="grid justify-items-end text-pumpkinOrange text-6xl">
-              <TbBadge />
+            <div className="grid justify-items-end text-pumpkinOrange text-5xl">
+              <MdBookmarkBorder />
             </div>
           </div>
           <p className="my-4 text-osloGrey">
@@ -127,8 +127,8 @@ const CompanyDetails = () => {
                 Location
               </p>
             </div>
-            <div className="grid justify-items-end text-pumpkinOrange text-6xl">
-              <TbBadge />
+            <div className="grid justify-items-end text-pumpkinOrange text-5xl">
+              <MdBookmarkBorder />
             </div>
           </div>
           <p className="my-4 text-osloGrey">
@@ -178,8 +178,8 @@ const CompanyDetails = () => {
                 Location
               </p>
             </div>
-            <div className="grid justify-items-end text-pumpkinOrange text-6xl">
-              <TbBadge />
+            <div className="grid justify-items-end text-pumpkinOrange text-5xl">
+              <MdBookmarkBorder />
             </div>
           </div>
           <p className="my-4 text-osloGrey">
@@ -229,8 +229,8 @@ const CompanyDetails = () => {
                 Location
               </p>
             </div>
-            <div className="grid justify-items-end text-pumpkinOrange text-6xl">
-              <TbBadge />
+            <div className="grid justify-items-end text-pumpkinOrange text-5xl">
+              <MdBookmarkBorder />
             </div>
           </div>
           <p className="my-4 text-osloGrey">
@@ -280,8 +280,8 @@ const CompanyDetails = () => {
                 Location
               </p>
             </div>
-            <div className="grid justify-items-end text-pumpkinOrange text-6xl">
-              <TbBadge />
+            <div className="grid justify-items-end text-pumpkinOrange text-5xl">
+              <MdBookmarkBorder />
             </div>
           </div>
           <p className="my-4 text-osloGrey">
@@ -331,8 +331,8 @@ const CompanyDetails = () => {
                 Location
               </p>
             </div>
-            <div className="grid justify-items-end text-pumpkinOrange text-6xl">
-              <TbBadge />
+            <div className="grid justify-items-end text-pumpkinOrange text-5xl">
+              <MdBookmarkBorder />
             </div>
           </div>
           <p className="my-4 text-osloGrey">
@@ -382,8 +382,8 @@ const CompanyDetails = () => {
                 Location
               </p>
             </div>
-            <div className="grid justify-items-end text-pumpkinOrange text-6xl">
-              <TbBadge />
+            <div className="grid justify-items-end text-pumpkinOrange text-5xl">
+              <MdBookmarkBorder />
             </div>
           </div>
           <p className="my-4 text-osloGrey">
@@ -433,8 +433,8 @@ const CompanyDetails = () => {
                 Location
               </p>
             </div>
-            <div className="grid justify-items-end text-pumpkinOrange text-6xl">
-              <TbBadge />
+            <div className="grid justify-items-end text-pumpkinOrange text-5xl">
+              <MdBookmarkBorder />
             </div>
           </div>
           <p className="my-4 text-osloGrey">
