@@ -23,9 +23,9 @@ module.exports = {
         osloGrey: "#8F8C8C",
       },
 
-      margin: {
-        custom: "37rem",
-      },
+      // margin: {
+      //   custom: "37rem",
+      // },
       height: {
         608: "608px",
         700: "700px",
@@ -47,6 +47,7 @@ module.exports = {
         480: "30rem",
         700: "700px",
         900: "900px",
+        
       },
       border: {
         1: "1px",
@@ -57,6 +58,7 @@ module.exports = {
       },
       margin: {
         "430px": "430px",
+        custom: "37rem",
         "650px": "650px",
         "500px": "500px",
       },
