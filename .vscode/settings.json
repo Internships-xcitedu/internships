@@ -1,0 +1,4 @@
+{
+  "json.format.keepLines": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
