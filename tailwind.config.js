@@ -21,6 +21,11 @@ module.exports = {
         sunYellow: "#F9E615",
         nobel: "#B4B2B2",
         osloGrey: "#8F8C8C",
+        red:"#F97316",
+        green:"#4CD52A",
+        grey:"#676976"
+        
+        
       },
 
       margin: {
@@ -39,6 +44,8 @@ module.exports = {
         1177: "73.563rem",
       },
       width: {
+        197:"197",
+        344:"344px",
         600: "600px",
         500: "500px",
         525: "525px",
