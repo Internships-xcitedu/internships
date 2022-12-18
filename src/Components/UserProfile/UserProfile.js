@@ -1,11 +1,15 @@
 import React from 'react'
-import vector1 from "../../Asset/images/Vector1.svg"
+import vector1 from "../../Asset/images/Vector1.svg" 
 import Vector2 from "../../Asset/images/Vector2.svg"
+import Vector3 from "../../Asset/images/Vector3.svg"
 const UserProfile = () => {
   return (
     <div className='max-w-laptopLg mx-auto  '>
-     <div className="w-344  rounded-xl mobileLg:w-[425px] bg-white   tablet:w-700   laptopMd:w-700 h-[1040px] ">
-    <div className='w-344 flex pt-20 mobileMd:ml-4 mobileLg:ml-16'>
+     <div className="w-344  rounded-xl mobileLg:w-[425px] bg-white   tablet:w-700   laptopMd:w-700 h-[1040px]  ">
+     <div className='flex mt-10 mb-5 justify-end '>
+       <img className='w-[25px]' src={Vector3} alt=""/>
+     </div>
+    <div className='w-344 flex  mobileMd:ml-4 mobileLg:ml-16'>
  
      <div class="avatar placeholder">
   <div class="bg-[#EEEEEE] text-neutral-content rounded-full w-24 h-24">
