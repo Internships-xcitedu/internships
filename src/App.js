@@ -9,8 +9,6 @@ import Profile from "./Components/DynamicComponents/Profile";
 import Skills from "./Components/DynamicComponents/Skills";
 import Slidebar from "./Components/DynamicComponents/Slidebar";
 import Empreg from "./Components/empsignup/Empreg";
-import JobSearch from "./Components/JobSearch/JobSearch";
-import ViewApplication from "./Components/ViewApplication/ViewApplication";
 import SignUp from "./Components/empsignup/Signup";
 import ForEmployers from "./Components/ForEmployers/ForEmployers";
 import Home from "./Components/Home/Home";
