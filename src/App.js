@@ -9,6 +9,8 @@ import Profile from "./Components/DynamicComponents/Profile";
 import Skills from "./Components/DynamicComponents/Skills";
 import Slidebar from "./Components/DynamicComponents/Slidebar";
 import Empreg from "./Components/empsignup/Empreg";
+import JobSearch from "./Components/JobSearch/JobSearch";
+import ViewApplication from "./Components/ViewApplication/ViewApplication";
 import SignUp from "./Components/empsignup/Signup";
 import ForEmployers from "./Components/ForEmployers/ForEmployers";
 import Home from "./Components/Home/Home";
@@ -19,7 +21,6 @@ import Postjob1 from "./Components/PostJob1/Postjob1";
 import Question from "./Components/Questions/Question";
 import Register from "./Components/Register/Register";
 
-
 function App() {
   return (
     <>
@@ -28,7 +29,7 @@ function App() {
         <Route path="/login" element={<Login />}></Route>
         <Route path="/register" element={<Register />}></Route>
         <Route path="/forEmployers" element={<ForEmployers />}></Route>
-        <Route path="/jobsearch" element={<JobSearch/>}/>
+        <Route path="/jobsearch" element={<JobSearch />} />
         <Route path="/slider" element={<Slidebar />}>
           <Route index element={<PersonalDetails />}></Route>
           <Route path="skills" element={<Skills />}></Route>

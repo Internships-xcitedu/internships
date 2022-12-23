@@ -41,7 +41,10 @@ const Search = () => {
               <span className="label-text font-semibold text-xl">
                 Create job alert
               </span>
-              <input type="checkbox" className="toggle" checked />
+              <label className="swap swap-rotate">
+                <input type="checkbox" className="toggle" />
+                <input type="checkbox" className="toggle" />
+              </label>
             </label>
           </div>
         </div>
