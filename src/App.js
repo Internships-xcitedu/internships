@@ -22,7 +22,6 @@ import Register from "./Components/Register/Register";
 import UserProfile from "./Components/UserProfile/UserProfile";
 import ViewApplication from "./Components/ViewApplication/ViewApplication";
 
-
 function App() {
   return (
     <>
@@ -31,7 +30,7 @@ function App() {
         <Route path="/login" element={<Login />}></Route>
         <Route path="/register" element={<Register />}></Route>
         <Route path="/forEmployers" element={<ForEmployers />}></Route>
-        <Route path="/jobsearch" element={<JobSearch/>}/>
+        <Route path="/jobsearch" element={<JobSearch />} />
         <Route path="/slider" element={<Slidebar />}>
           <Route index element={<PersonalDetails />}></Route>
           <Route path="skills" element={<Skills />}></Route>
@@ -43,13 +42,13 @@ function App() {
         <Route path="/postjob2" element={<Postjob2 />} />
         <Route path="/postjob1" element={<Postjob1 />} />
         <Route path="/apply" element={<Apply />} />
-        <Route path="/viewApplication" element={<ViewApplication/>} />
+        <Route path="/viewApplication" element={<ViewApplication />} />
         {/* <Route path="/navbar" element={<Navbar />} /> */}
 
         <Route path="/question" element={<Question />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/empreg" element={<Empreg />} />
-        <Route path="/userprofile" element={<UserProfile/>}/>
+        <Route path="/userprofile" element={<UserProfile />} />
       </Routes>
     </>
   );
