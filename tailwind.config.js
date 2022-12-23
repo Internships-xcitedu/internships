@@ -21,11 +21,16 @@ module.exports = {
         sunYellow: "#F9E615",
         nobel: "#B4B2B2",
         osloGrey: "#8F8C8C",
+        red:"#F97316",
+        green:"#4CD52A",
+        grey:"#676976"
+        
+        
       },
 
-      margin: {
-        custom: "37rem",
-      },
+      // margin: {
+      //   custom: "37rem",
+      // },
       height: {
         608: "608px",
         700: "700px",
@@ -39,6 +44,8 @@ module.exports = {
         1177: "73.563rem",
       },
       width: {
+        197:"197",
+        344:"344px",
         600: "600px",
         500: "500px",
         525: "525px",
@@ -47,6 +54,7 @@ module.exports = {
         480: "30rem",
         700: "700px",
         900: "900px",
+        
       },
       border: {
         1: "1px",
@@ -57,6 +65,7 @@ module.exports = {
       },
       margin: {
         "430px": "430px",
+        custom: "37rem",
         "650px": "650px",
         "500px": "500px",
       },

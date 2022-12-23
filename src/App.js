@@ -16,10 +16,13 @@ import ForEmployers from "./Components/ForEmployers/ForEmployers";
 import Home from "./Components/Home/Home";
 import Login from "./Components/Login/Login";
 // import Navbar from "./Components/PostJob2/Navbar";
-import Postjob2 from "./Components/PostJob2/PostJob2";
+import JobSearch from "./Components/JobSearch/JobSearch";
 import Postjob1 from "./Components/PostJob1/Postjob1";
+import Postjob2 from "./Components/PostJob2/PostJob2";
 import Question from "./Components/Questions/Question";
 import Register from "./Components/Register/Register";
+import UserProfile from "./Components/UserProfile/UserProfile";
+import ViewApplication from "./Components/ViewApplication/ViewApplication";
 
 function App() {
   return (
@@ -41,12 +44,13 @@ function App() {
         <Route path="/postjob2" element={<Postjob2 />} />
         <Route path="/postjob1" element={<Postjob1 />} />
         <Route path="/apply" element={<Apply />} />
-        <Route path="/viewApplication" element={<ViewApplication />} />
+        <Route path="/viewApplication" element={<ViewApplication/>} />
         {/* <Route path="/navbar" element={<Navbar />} /> */}
 
         <Route path="/question" element={<Question />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/empreg" element={<Empreg />} />
+        <Route path="/userprofile" element={<UserProfile/>}/>
       </Routes>
     </>
   );
