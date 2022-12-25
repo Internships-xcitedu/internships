@@ -59,7 +59,7 @@ const Chat = () => {
 		</div>
 	</div>
 	   </div>  
-		{/* Chat-2   */}
+	{/* Chat-2   */}
        <div className='bg-white p-2 rounded-lg mb-6'>
        <div className='flex justify-around mt-3.5'>
 	   <div className='flex'>
@@ -86,7 +86,7 @@ const Chat = () => {
 		</div>
 	</div>
 	   </div>  
-		{/* Chat-3  */}
+		   {/* Chat-3  */}
        <div className='bg-white p-2 rounded-lg mb-6'>
        <div className='flex justify-around mt-3.5'>
 	   <div className='flex'>
@@ -101,6 +101,7 @@ const Chat = () => {
 
 	   <div>
 		<p className='ml-8'>1:20 PM</p>
+		{/* <h1>kfjkgjtj</h1> */}
 	   </div>
     </div>
     
