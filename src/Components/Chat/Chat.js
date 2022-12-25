@@ -9,41 +9,30 @@ import Search from '../../Asset/chat/search.svg'
 
 const Chat = () => {
     return (
-		<div className='flex justify-center bg-gray-100 text-gray-800 p-10'>
+	<div className='flex justify-center bg-gray-100 text-gray-800 p-10 mobileLg:flex-col mb-5 tablet:flex-col p-3 mb-5 laptopMd:flex-row'>
 		 {/* Frist-Part	 */}
 
-	<div className='bg-gray-300 border border-gray-300 shadow-xl rounded-2xl p-6'>
+	<div className='bg-gray-300 border border-gray-300 shadow-xl rounded-2xl p-6 tablet:mb-5'>
        {/* Search bar */}
 	   
 	<div className='flex justify-between mb-5'>
 		<div>
 		<form action="" className="relative">
 
-		  {/* <div className='h-10 w-10 bg-gray-300 rounded-full border-2 border-gray-900 flex justify-center items-center'>
-			<p className='justify-center items-center text-black'>2</p>
-		  </div> */}
-         
-			<div className=' flex justify-center items-center '>
-			<img className='ml-5' src={Search} alt=''></img>
-			<input type="search" placeholder='Enter for Search' className="justify-center items-center peer relative z-10 cursor-pointer rounded-full border border-gray-300 bg-transparent pl-12 outline-none py-2" />
+		  <div className=' flex'>
+			<img className='absolute z-30 justify-start pt-3 ml-5' src={Search} alt=''></img>
+			<input type="search" placeholder='Enter for Search' className="w-[395px] justify-start peer relative z-10 cursor-pointer rounded-full border border-gray-300 bg-white pl-12 outline-none py-2" />
              
-			</div>
+		 </div>
 		 
         </form>
 		</div>
-		<div className='mt-2'>
+		<div className='mt-2 ml-5'>
 			<img src={Notification} alt=''></img>
 		</div>
 	</div>   
     
-
-  
-
-
-
-    
-
-	{/* Chat-1    */}
+  {/* Chat-1    */}
        <div className='bg-white p-2 rounded-lg mb-6'>
        <div className='flex justify-around mt-3.5'>
 	   <div className='flex'>
