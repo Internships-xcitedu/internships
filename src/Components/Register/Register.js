@@ -5,11 +5,11 @@ import union from "../../Asset/images/Union.png";
 const Register = () => {
   return (
     <div className="bg-white w-screen tablet:flex ">
-      <div className="bg-pumpkinOrange   h-480 flex flex-col items-center justify-center gap-12 tablet:w-96 tablet:h-screen tablet:gap-36 iPadAir:w-480 iPadAir:gap-80  laptopMd:h-screen laptopMd:gap-20 desktopSm:gap-36">
+      <div className="bg-pumpkinOrange h-480 flex flex-col items-center justify-center gap-12 tablet:w-96 tablet:h-screen tablet:gap-36 iPadAir:w-480 iPadAir:gap-80  laptopMd:h-screen laptopMd:gap-20 desktopSm:gap-36">
         <h1 className="main-page-logo">XcitEducation</h1>
         <img src={union} alt="" className="w-80  laptopMd:mt-28" />
       </div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center justify-center  laptopSm:ml-52">
         <h3 className="mt-6 mb-4 text-2xl font-semibold">Let's get started</h3>
         <div className="flex flex-col items-center">
          <div> <div className="form-control w-full max-w-xs">
@@ -51,7 +51,7 @@ const Register = () => {
           </div></div>
           <p>or</p>
           <div >
-            <button className="flex flex-row items-center gap-2 pb-10">Sign up with Google <img src={google} alt="" /> </button>
+            <button className="flex flex-row items-center justify-center pt-8 rounded-xl gap-2 pb-8 border w-70 h-10 mb-10">Sign up with Google <img src={google} alt="" /> </button>
           </div>
         </div>
       </div>

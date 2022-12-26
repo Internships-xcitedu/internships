@@ -1,11 +1,8 @@
-import {
-  Routes,
-  Route,
-  useNavigationType,
-  useLocation,
-} from "react-router-dom";
-import JobDescriptionPage from "./pages/JobDescriptionPage";
 import { useEffect } from "react";
+import {
+  Route, Routes, useLocation, useNavigationType
+} from "react-router-dom";
+import JobDescriptionPage from "./JobDescriptionPage";
 
 function App() {
   const action = useNavigationType();
