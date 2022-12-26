@@ -9,7 +9,7 @@ const Register = () => {
         <h1 className="main-page-logo">XcitEducation</h1>
         <img src={union} alt="" className="w-80  laptopMd:mt-28" />
       </div>
-      <div className="flex flex-col items-center justify-center  laptopSm:ml-52">
+      <div className="flex flex-col items-center justify-center laptopSm:ml-20 tablet:ml-10">
         <h3 className="mt-6 mb-4 text-2xl font-semibold">Let's get started</h3>
         <div className="flex flex-col items-center">
          <div> <div className="form-control w-full max-w-xs">
@@ -47,11 +47,11 @@ const Register = () => {
               type="password"
               className="input input-bordered w-full max-w-xs"
             />
-            <button className="bg-pumpkinOrange mt-6 rounded-full w-44 h-10 text-xl ml-14 font-semibold text-white">Sign up</button>
+            <button className="bg-pumpkinOrange mt-6 rounded-full w-44 h-10 text-xl ml-14 font-semibold hover:bg-blue-400 text-white">Sign up</button>
           </div></div>
           <p>or</p>
           <div >
-            <button className="flex flex-row items-center justify-center pt-8 rounded-xl gap-2 pb-8 border w-70 h-10 mb-10">Sign up with Google <img src={google} alt="" /> </button>
+            <button className="flex flex-row items-center justify-center pt-8 rounded-xl gap-2 pb-8 border w-70 h-10 mb-10 hover:bg-blue-400 hover:text-white">Sign up with Google <img src={google} alt="" /> </button>
           </div>
         </div>
       </div>
