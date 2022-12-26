@@ -14,12 +14,16 @@ import ForEmployers from "./Components/ForEmployers/ForEmployers";
 import Home from "./Components/Home/Home";
 import Login from "./Components/Login/Login";
 // import Navbar from "./Components/PostJob2/Navbar";
-import Postjob2 from "./Components/PostJob2/PostJob2";
+import JobSearch from "./Components/JobSearch/JobSearch";
 import Postjob1 from "./Components/PostJob1/Postjob1";
+import Postjob2 from "./Components/PostJob2/PostJob2";
 import Question from "./Components/Questions/Question";
 import Register from "./Components/Register/Register";
 import UserProfile from "./Components/UserProfile/UserProfile";
+
 import Chat from "./Components/Chat/Chat";
+
+import ViewApplication from "./Components/ViewApplication/ViewApplication";
 
 
 function App() {
@@ -30,7 +34,7 @@ function App() {
         <Route path="/login" element={<Login />}></Route>
         <Route path="/register" element={<Register />}></Route>
         <Route path="/forEmployers" element={<ForEmployers />}></Route>
-        <Route path="/jobsearch" element={<JobSearch/>}/>
+        <Route path="/jobsearch" element={<JobSearch />} />
         <Route path="/slider" element={<Slidebar />}>
           <Route index element={<PersonalDetails />}></Route>
           <Route path="skills" element={<Skills />}></Route>
@@ -48,8 +52,11 @@ function App() {
         <Route path="/question" element={<Question />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/empreg" element={<Empreg />} />
-        <Route path="/userprofile" element={<UserProfile/>}/>
+
         <Route path="/chat" element={<Chat/>}/>
+
+        <Route path="/userprofile" element={<UserProfile />} />
+
       </Routes>
     </>
   );
