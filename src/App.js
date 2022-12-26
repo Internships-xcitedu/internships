@@ -14,6 +14,7 @@ import ForEmployers from "./Components/ForEmployers/ForEmployers";
 import Home from "./Components/Home/Home";
 import Login from "./Components/Login/Login";
 // import Navbar from "./Components/PostJob2/Navbar";
+import JobDescriptionPage from "./Components/JobDescription/JobDescriptionPage";
 import JobSearch from "./Components/JobSearch/JobSearch";
 import Postjob1 from "./Components/PostJob1/Postjob1";
 import Postjob2 from "./Components/PostJob2/PostJob2";
@@ -52,6 +53,7 @@ function App() {
         <Route path="/question" element={<Question />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/empreg" element={<Empreg />} />
+        <Route path="/jobdescriptionpage" element={<JobDescriptionPage/>} />
 
         <Route path="/chat" element={<Chat/>}/>
 
