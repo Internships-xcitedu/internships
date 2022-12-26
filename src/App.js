@@ -20,7 +20,11 @@ import Postjob2 from "./Components/PostJob2/PostJob2";
 import Question from "./Components/Questions/Question";
 import Register from "./Components/Register/Register";
 import UserProfile from "./Components/UserProfile/UserProfile";
+
+import Chat from "./Components/Chat/Chat";
+
 import ViewApplication from "./Components/ViewApplication/ViewApplication";
+
 
 function App() {
   return (
@@ -48,7 +52,11 @@ function App() {
         <Route path="/question" element={<Question />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/empreg" element={<Empreg />} />
+
+        <Route path="/chat" element={<Chat/>}/>
+
         <Route path="/userprofile" element={<UserProfile />} />
+
       </Routes>
     </>
   );
