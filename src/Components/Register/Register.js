@@ -1,19 +1,29 @@
 import React from "react";
+import google from "../../Asset/images/google.png";
 import union from "../../Asset/images/Union.png";
 
 const Register = () => {
   return (
-    <div className="bg-white w-screen  tablet:flex ">
-      <div className="bg-pumpkinOrange   h-480 flex flex-col items-center justify-center gap-12 tablet:w-96 tablet:h-screen tablet:gap-36 iPadAir:w-480 iPadAir:gap-80  laptopMd:h-screen laptopMd:gap-20 desktopSm:gap-36">
+    <div className="bg-white w-screen tablet:flex ">
+      <div className="bg-pumpkinOrange h-480 flex flex-col items-center justify-center gap-12 tablet:w-96 tablet:h-screen tablet:gap-36 iPadAir:w-480 iPadAir:gap-80  laptopMd:h-screen laptopMd:gap-20 desktopSm:gap-36">
         <h1 className="main-page-logo">XcitEducation</h1>
         <img src={union} alt="" className="w-80  laptopMd:mt-28" />
       </div>
-      <div>
-        <h3>Let's get started</h3>
-        <div>
+      <div className="flex flex-col items-center justify-center laptopSm:ml-20 tablet:ml-10">
+        <h3 className="mt-6 mb-4 text-2xl font-semibold">Let's get started</h3>
+        <div className="flex flex-col items-center">
+         <div> <div className="form-control w-full max-w-xs">
+            <label className="label">
+              <span className="label-text font-bold text-2xl">First name</span>
+            </label>
+            <input
+              type="text"
+              className="input input-bordered w-72 max-w-xs"
+            />
+          </div>
           <div className="form-control w-full max-w-xs">
             <label className="label">
-              <span className="label-text font-bold">First name</span>
+              <span className="label-text font-bold text-2xl">Last name</span>
             </label>
             <input
               type="text"
@@ -22,7 +32,7 @@ const Register = () => {
           </div>
           <div className="form-control w-full max-w-xs">
             <label className="label">
-              <span className="label-text font-bold">Last name</span>
+              <span className="label-text font-bold text-2xl">Email</span>
             </label>
             <input
               type="text"
@@ -31,25 +41,17 @@ const Register = () => {
           </div>
           <div className="form-control w-full max-w-xs">
             <label className="label">
-              <span className="label-text font-bold">Email</span>
+              <span className="label-text font-bold text-2xl">Password</span>
             </label>
             <input
-              type="text"
+              type="password"
               className="input input-bordered w-full max-w-xs"
             />
-          </div>
-          <div className="form-control w-full max-w-xs">
-            <label className="label">
-              <span className="label-text font-bold">Password</span>
-            </label>
-            <input
-              type="text"
-              className="input input-bordered w-full max-w-xs"
-            />
-            <input type="submit" value="Sign up" />
-          </div>
-          <div>
-            <h3>google</h3>
+            <button className="bg-pumpkinOrange mt-6 rounded-full w-44 h-10 text-xl ml-14 font-semibold hover:bg-blue-400 text-white">Sign up</button>
+          </div></div>
+          <p>or</p>
+          <div >
+            <button className="flex flex-row items-center justify-center pt-8 rounded-xl gap-2 pb-8 border w-70 h-10 mb-10 hover:bg-blue-400 hover:text-white">Sign up with Google <img src={google} alt="" /> </button>
           </div>
         </div>
       </div>
