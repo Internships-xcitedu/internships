@@ -25,7 +25,7 @@ import UserProfile from "./Components/UserProfile/UserProfile";
 import Chat from "./Components/Chat/Chat";
 
 import ViewApplication from "./Components/ViewApplication/ViewApplication";
-
+import EmployeSearch from "./Components/EmployeSearch/EmployeSearch";
 
 function App() {
   return (
@@ -36,6 +36,7 @@ function App() {
         <Route path="/register" element={<Register />}></Route>
         <Route path="/forEmployers" element={<ForEmployers />}></Route>
         <Route path="/jobsearch" element={<JobSearch />} />
+        <Route path="/employeSearch" element={<EmployeSearch />} />
         <Route path="/slider" element={<Slidebar />}>
           <Route index element={<PersonalDetails />}></Route>
           <Route path="skills" element={<Skills />}></Route>
@@ -55,10 +56,9 @@ function App() {
         <Route path="/empreg" element={<Empreg />} />
         <Route path="/jobdescriptionpage" element={<JobDescriptionPage/>} />
 
-        <Route path="/chat" element={<Chat/>}/>
+        <Route path="/chat" element={<Chat />} />
 
         <Route path="/userprofile" element={<UserProfile />} />
-
       </Routes>
     </>
   );
