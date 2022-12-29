@@ -37,7 +37,9 @@ const EmpSearch = () => {
             </button>
           </div>
         </div>
-        <h1 className="my-10 font-bold">Based on your previous job postings</h1>
+        <h1 className="my-10 font-bold text-xl">
+          Based on your previous job postings
+        </h1>
       </div>
     </>
   );
