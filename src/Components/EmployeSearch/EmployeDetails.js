@@ -565,6 +565,14 @@ const EmployeDetails = () => {
           <div className="grid justify-items-end"></div>
         </div>
       </div>
+      <div className="flex justify-center py-8 font-bold">
+        <h1 className="mr-4 text-pumpkinOrange">1</h1>
+        <h1 className="mr-4">2</h1>
+        <h1 className="mr-4">3</h1>
+        <h1 className="mr-4">4</h1>
+        <h1 className="mr-4">5</h1>
+        <p className="text-pumpkinOrange font-bold">Next page {">"}</p>
+      </div>
     </div>
   );
 };
